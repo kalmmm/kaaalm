@@ -1,0 +1,183 @@
+@import url("https://use.typekit.net/fkd3nlx.css");
+
+body
+{
+	margin: 0;
+	background-color: #F8F8F8;
+    font-family: "loos-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    font-size: 220%;
+    margin-bottom: 3.4%;
+}
+
+.name
+{
+    position: sticky;
+    margin: 0%;
+    margin-left: 2%;
+    margin-top: 0.4%;
+}
+
+.menu
+{
+    margin: 0%;
+    margin-right: 2%;
+    margin-top: 0.4%;
+}
+
+footer
+{
+    line-height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.haut
+{
+    text-decoration: none;
+    color: black;
+}
+
+img
+{
+    width: 38%;
+    padding-bottom: 4%;
+}
+
+.horizontale
+{
+    width: 64%;
+}
+
+.horizontaleMael
+{
+    width: 82%;
+}
+
+.moins
+{
+    width: 32%;
+}
+
+.images
+{
+    text-align: center;
+}
+
+.bottomimg
+{
+    padding-bottom: 1.2%;
+    width: 32%;
+}
+
+.back
+{
+    font-size: 50%;
+}
+
+a
+{
+    color: black;
+}
+
+.bio
+{
+    text-align: center;
+    padding: 3.4%;
+    margin: 0%;
+    line-height: 95%;
+}
+
+.info
+{
+    text-align: center;
+    margin: 0%;
+    line-height: 95%;
+    padding: 3.4%;
+    padding-top: 0%;
+    padding-bottom: 1.4%;
+}
+
+.autoportrait
+{
+    width: 27%;
+    padding-bottom: 0%;
+}
+
+@media (max-width: 800px) 
+{
+
+.box
+{
+    font-size: 190%;
+}
+
+.menu
+{
+    margin-right: 2.8%;
+}
+
+.name
+{
+    margin-left: 2.8%;
+}
+
+.autoportrait
+{
+    width: 56%;
+    padding-bottom: 2.8%;
+}
+
+img
+{
+    width: 62%;
+    padding-bottom: 6%;
+}
+
+.horizontale
+{
+    width: 82%;
+}
+
+.moins
+{
+    width: 52%;
+}
+
+.info
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bio
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+}
+
+@media (max-width: 650px) 
+{
+
+.info
+{
+    font-size: 90%;
+}
+
+.bio
+{
+    font-size: 90%;
+}
+
+}
