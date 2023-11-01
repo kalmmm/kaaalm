@@ -1,0 +1,120 @@
+@import url("https://use.typekit.net/fkd3nlx.css");
+
+body
+{
+	margin: 0;
+	background-color: #F8F8F8;
+    font-family: "loos-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    font-size: 220%;
+    margin-bottom: 3.4%;
+}
+
+.name
+{
+    position: sticky;
+    margin: 0%;
+    margin-left: 2%;
+    margin-top: 0.4%;
+}
+
+.menu
+{
+    margin: 0%;
+    margin-right: 2%;
+    margin-top: 0.4%;
+}
+
+@media (max-width: 800px) 
+{
+
+.box
+{
+    font-size: 190%;
+}
+
+.menu
+{
+    margin-right: 2.8%;
+}
+
+.name
+{
+    margin-left: 2.8%;
+}
+
+}
+
+footer
+{
+    line-height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.haut
+{
+    text-decoration: none;
+    color: black;
+}
+
+img
+{
+    
+    width: 62%;
+    padding-bottom: 6%;
+}
+
+.horizontale
+{
+    width: 82%;
+}
+
+.moins
+{
+    width: 52%;
+}
+
+.images
+{
+    text-align: center;
+}
+
+.bottomimg
+{
+    padding-bottom: 1.2%;
+    width: 52%;
+}
+
+.back
+{
+    font-size: 50%;
+}
+
+a
+{
+    color: black;
+}
+
+.bio
+{
+    text-align: center;
+    padding: 3.4%;
+    padding-bottom: 1.2%;
+    margin: 0%;
+    line-height: 95%;
+}
+
+.autoportrait
+{
+    padding-bottom: 0%;
+}
