@@ -7,6 +7,7 @@ body
     font-family: "loos-extended", sans-serif;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: -2px;
 }
 
 .box
@@ -39,6 +40,7 @@ footer
     text-align: center;
     display: flex;
     justify-content: space-around;
+    letter-spacing: -0.6px;
 }
 
 .haut
@@ -95,6 +97,7 @@ a
     padding: 3.4%;
     margin: 0%;
     line-height: 95%;
+    letter-spacing: -0.6px;
 }
 
 .info
@@ -105,6 +108,7 @@ a
     padding: 3.4%;
     padding-top: 0%;
     padding-bottom: 1.4%;
+    letter-spacing: -0.6px;
 }
 
 .autoportrait
@@ -115,6 +119,11 @@ a
 
 @media (max-width: 800px) 
 {
+
+.bottomimg
+{
+    width: 52%;
+}
 
 .box
 {
