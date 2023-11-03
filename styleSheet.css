@@ -51,7 +51,7 @@ footer
 
 img
 {
-    border: solid black 2.6px;
+    border: solid black 2.4px;
     width: 38%;
     margin-bottom: 4%;
     padding-bottom: 0%;
@@ -121,8 +121,18 @@ a
     padding-bottom: 0%;
 }
 
+.longue
+{
+    width: 34%;
+}
+
 @media (max-width: 800px) 
 {
+
+.longue
+{
+    width: 54%;
+}
 
 .bottomimg
 {
@@ -153,6 +163,7 @@ a
 
 img
 {
+    border: solid black 2px;
     width: 62%;
     margin-bottom: 6%;
     padding-bottom: 0%;
