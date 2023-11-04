@@ -110,7 +110,7 @@ a
     line-height: 95%;
     padding: 3.4%;
     padding-top: 0%;
-    padding-bottom: 1.4%;
+    padding-bottom: 3.6%;
     letter-spacing: -0.5px;
 }
 
@@ -119,6 +119,12 @@ a
     width: 26%;
     margin-bottom: 0%;
     padding-bottom: 0%;
+}
+
+.lahaine
+{
+    width: 42%;
+    margin-bottom: 1.2%;
 }
 
 .longue
@@ -157,8 +163,13 @@ a
 .autoportrait
 {
     width: 52%;
-    margin-bottom: 2.8%;
+    margin-bottom: 0.6%;
     padding-bottom: 0%;
+}
+
+.lahaine
+{
+    width: 80%;
 }
 
 img
