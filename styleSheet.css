@@ -53,6 +53,7 @@ img
 {
     border: solid black 2.25px;
     width: 38%;
+    height: auto;
     margin-bottom: 4%;
     padding-bottom: 0%;
 }
