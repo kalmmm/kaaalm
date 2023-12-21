@@ -1,0 +1,220 @@
+@import url("https://use.typekit.net/fkd3nlx.css");
+
+body
+{
+	margin: 0;
+	background-color: #F8F8F8;
+    font-family: "loos-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -2px;
+}
+
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    font-size: 220%;
+    margin-bottom: 3.4%;
+}
+
+.name
+{
+    position: sticky;
+    margin: 0%;
+    margin-left: 2%;
+    margin-top: 0.4%;
+}
+
+.menu
+{
+    margin: 0%;
+    margin-right: 2%;
+    margin-top: 0.4%;
+}
+
+footer
+{
+    line-height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: -0.5px;
+}
+
+.haut
+{
+    text-decoration: none;
+    color: black;
+}
+
+img
+{
+    border: solid black 2.25px;
+    width: 38%;
+    height: auto;
+    margin-bottom: 4%;
+    padding-bottom: 0%;
+}
+
+.horizontale
+{
+    width: 64%;
+}
+
+.horizontaleMael
+{
+    width: 82%;
+}
+
+.moins
+{
+    width: 32%;
+}
+
+.images
+{
+    text-align: center;
+}
+
+.bottomimg
+{
+    margin-bottom: 1.2%;
+    padding-bottom: 0%;
+    width: 32%;
+}
+
+.back
+{
+    font-size: 50%;
+}
+
+a
+{
+    color: black;
+}
+
+.bio
+{
+    text-align: center;
+    padding: 3.4%;
+    margin: 0%;
+    line-height: 95%;
+    letter-spacing: -0.5px;
+}
+
+.info
+{
+    text-align: center;
+    margin: 0%;
+    line-height: 95%;
+    padding: 3.4%;
+    padding-top: 0%;
+    padding-bottom: 3.6%;
+    letter-spacing: -0.5px;
+}
+
+.autoportrait
+{
+    width: 26%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.lahaine
+{
+    width: 42%;
+    margin-bottom: 1.2%;
+}
+
+.longue
+{
+    width: 34%;
+}
+
+@media (max-width: 800px) 
+{
+
+.longue
+{
+    width: 54%;
+}
+
+.bottomimg
+{
+    width: 52%;
+}
+
+.box
+{
+    font-size: 190%;
+}
+
+.menu
+{
+    margin-right: 2.8%;
+}
+
+.name
+{
+    margin-left: 2.8%;
+}
+
+.autoportrait
+{
+    width: 52%;
+    margin-bottom: 0.6%;
+    padding-bottom: 0%;
+}
+
+.lahaine
+{
+    width: 80%;
+}
+
+img
+{
+    width: 62%;
+    margin-bottom: 6%;
+    padding-bottom: 0%;
+}
+
+.horizontale
+{
+    width: 82%;
+}
+
+.moins
+{
+    width: 52%;
+}
+
+.info
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bio
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+}
+
+@media (max-width: 650px) 
+{
+
+.info
+{
+    font-size: 90%;
+}
+
+.bio
+{
+    font-size: 90%;
+}
+
+}
