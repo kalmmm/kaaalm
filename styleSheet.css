@@ -3,7 +3,7 @@
 body
 {
 	margin: 0;
-	background-color: #F8F8F8;
+	background-color: #F4F4F4;
     font-family: "loos-extended", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -65,7 +65,12 @@ img
 
 .horizontaleMael
 {
-    width: 82%;
+    width: 78%;
+}
+
+.carrétrange
+{
+    width: 48%;
 }
 
 .moins
