@@ -58,6 +58,11 @@ img
     padding-bottom: 0%;
 }
 
+.vitreBrisée
+{
+    width: 32%;
+}
+
 .horizontale
 {
     width: 64%;
@@ -87,6 +92,7 @@ img
 {
     margin-bottom: 1.2%;
     padding-bottom: 0%;
+    width: 34%;
 }
 
 .seizedixième
@@ -131,12 +137,6 @@ a
     padding-bottom: 0%;
 }
 
-.lahaine
-{
-    width: 42%;
-    margin-bottom: 1.2%;
-}
-
 .longue
 {
     width: 34%;
@@ -144,6 +144,11 @@ a
 
 @media (max-width: 800px) 
 {
+
+.vitreBrisée
+{
+    width: 50%;
+}
 
 .seizedixième
 {
@@ -157,7 +162,7 @@ a
 
 .bottomimg
 {
-    width: 52%;
+    width: 48%;
 }
 
 .box
